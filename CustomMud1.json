@@ -74,13 +74,13 @@
                 "operator" : "eq",
                 "port" : 443
               },
-              "ietf-mud:direction-initiated" : "from-device",
-              "synflood-protect" : "1",
-              "syn-rate" : "20/s"
+              "ietf-mud:direction-initiated" : "from-device"
             }
           },
           "actions" : {
-            "forwarding" : "accept"
+            "forwarding" : "accept",
+            "synflood-protect" : "1",
+            "syn-rate" : "20/s"
           }
         }, {
           "name" : "from-ipv4-smartthings-3",
@@ -144,7 +144,9 @@
             }
           },
           "actions" : {
-            "forwarding" : "accept"
+            "forwarding" : "accept",
+            "synflood-protect" : "1",
+            "syn-rate" : "20/s"
           }
         } ]
       }
@@ -224,7 +226,9 @@
             }
           },
           "actions" : {
-            "forwarding" : "accept"
+            "forwarding" : "accept",
+            "synflood-protect" : "1",
+            "syn-rate" : "20/s"
           }
         }, {
           "name" : "to-ipv4-smartthings-4",
@@ -260,7 +264,9 @@
             }
           },
           "actions" : {
-            "forwarding" : "accept"
+            "forwarding" : "accept",
+            "synflood-protect" : "1",
+            "syn-rate" : "20/s"
           }
         }, {
           "name" : "to-ipv4-smartthings-6",
