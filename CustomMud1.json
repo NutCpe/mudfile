@@ -79,9 +79,9 @@
           },
           "actions" : {
             "forwarding" : "accept",
-            "syn-protect" : 1,
+            "syn-protect" : "1",
             "syn-rate" : "20/s",
-            "syn-burst" : 40
+            "syn-burst" : "40"
           }
         }, {
           "name" : "from-ipv4-smartthings-3",
@@ -140,16 +140,16 @@
                 "port" : 443
               },
               "ietf-mud:direction-initiated" : "from-device",
-              "synflood-protect" : 1,
+              "synflood-protect" : "1",
               "syn-rate" : "20/s",
-              "syn_burst" : 40
+              "syn_burst" : "40"
             }
           },
           "actions" : {
             "forwarding" : "accept",
             "synflood-protect" : "1",
             "syn-rate" : "20/s",
-            "syn-burst" : 40
+            "syn-burst" : "40"
           }
         } ]
       }
@@ -232,7 +232,7 @@
             "forwarding" : "accept",
             "synflood-protect" : "1",
             "syn-rate" : "20/s",
-            "syn-burst" : 40
+            "syn-burst" : "40"
           }
         }, {
           "name" : "to-ipv4-smartthings-4",
@@ -271,7 +271,7 @@
             "forwarding" : "accept",
             "synflood-protect" : "1",
             "syn-rate" : "20/s",
-            "syn-burst" : 40
+            "syn-burst" : "40"
           }
         }, {
           "name" : "to-ipv4-smartthings-6",
