@@ -229,10 +229,7 @@
             }
           },
           "actions" : {
-            "forwarding" : "accept",
-            "synflood-protect" : "1",
-            "syn-rate" : "20/s",
-            "syn-burst" : "40"
+            "forwarding" : "accept"
           }
         }, {
           "name" : "to-ipv4-smartthings-4",
@@ -268,10 +265,7 @@
             }
           },
           "actions" : {
-            "forwarding" : "accept",
-            "synflood-protect" : "1",
-            "syn-rate" : "20/s",
-            "syn-burst" : "40"
+            "forwarding" : "accept"
           }
         }, {
           "name" : "to-ipv4-smartthings-6",
