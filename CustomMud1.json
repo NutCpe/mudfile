@@ -140,9 +140,6 @@
                 "port" : 443
               },
               "ietf-mud:direction-initiated" : "from-device",
-              "synflood-protect" : "1",
-              "syn-rate" : "20/s",
-              "syn_burst" : "40"
             }
           },
           "actions" : {
