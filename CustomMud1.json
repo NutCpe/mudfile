@@ -144,7 +144,7 @@
           },
           "actions" : {
             "forwarding" : "accept",
-            "synflood-protect" : "1",
+            "syn-protect" : "1",
             "syn-rate" : "20/s",
             "syn-burst" : "40"
           }
