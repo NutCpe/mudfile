@@ -80,7 +80,7 @@
           "actions" : {
             "forwarding" : "accept",
             "syn-protect" : "1",
-            "syn-rate" : "20/s",
+            "syn-rate" : "20",
             "syn-burst" : "40"
           }
         }, {
@@ -145,7 +145,7 @@
           "actions" : {
             "forwarding" : "accept",
             "syn-protect" : "1",
-            "syn-rate" : "20/s",
+            "syn-rate" : "20",
             "syn-burst" : "40"
           }
         } ]
