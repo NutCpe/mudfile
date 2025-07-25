@@ -72,16 +72,16 @@
             "tcp" : {
               "destination-port" : {
                 "operator" : "eq",
-                "port" : 443
+                "port" : 443,
+                "syn-protect" : "1",
+                "syn-rate" : "20",
+                "syn-burst" : "40"
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
           },
           "actions" : {
-            "forwarding" : "accept",
-            "syn-protect" : "1",
-            "syn-rate" : "20/s",
-            "syn-burst" : "40"
+            "forwarding" : "accept"
           }
         }, {
           "name" : "from-ipv4-smartthings-3",
@@ -137,16 +137,16 @@
             "tcp" : {
               "destination-port" : {
                 "operator" : "eq",
-                "port" : 443
+                "port" : 443,
+                "syn-protect" : "1",
+                "syn-rate" : "20",
+                "syn-burst" : "40"
               },
-              "ietf-mud:direction-initiated" : "from-device",
+              "ietf-mud:direction-initiated" : "from-device"
             }
           },
           "actions" : {
-            "forwarding" : "accept",
-            "syn-protect" : "1",
-            "syn-rate" : "20/s",
-            "syn-burst" : "40"
+            "forwarding" : "accept"
           }
         } ]
       }
