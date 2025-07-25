@@ -73,7 +73,6 @@
               "destination-port" : {
                 "operator" : "eq",
                 "port" : 443,
-                "syn-protect" : "1",
                 "syn-rate" : "20/s",
                 "syn-burst" : "40"
               },
@@ -138,7 +137,6 @@
               "destination-port" : {
                 "operator" : "eq",
                 "port" : 443,
-                "syn-protect" : "1",
                 "syn-rate" : "20/s",
                 "syn-burst" : "40"
               },
