@@ -74,7 +74,7 @@
                 "operator" : "eq",
                 "port" : 443,
                 "syn-protect" : "1",
-                "syn-rate" : "20",
+                "syn-rate" : "20/s",
                 "syn-burst" : "40"
               },
               "ietf-mud:direction-initiated" : "from-device"
@@ -139,7 +139,7 @@
                 "operator" : "eq",
                 "port" : 443,
                 "syn-protect" : "1",
-                "syn-rate" : "20",
+                "syn-rate" : "20/s",
                 "syn-burst" : "40"
               },
               "ietf-mud:direction-initiated" : "from-device"
