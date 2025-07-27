@@ -81,7 +81,6 @@
             "forwarding" : "accept",
             "syn-rate" : 20,
             "syn-burst" : 40
-
           }
         }, {
           "name" : "from-ipv4-smartthings-3",
