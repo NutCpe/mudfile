@@ -83,7 +83,7 @@
               },
               "tcp-monitor": {
                 "synflag-monitor" : "true",
-                "syn-rate ": 10,
+                "syn-rate" : 10,
                 "syn-burst" : 20,
                 "max-session" : 3,
                 "conn-attempt" : 3,
