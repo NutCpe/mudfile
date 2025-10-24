@@ -82,7 +82,7 @@
                 "port" : 443
               },
               "tcp-monitor": {
-                "synflag_monitor" : "true",
+                "synflag-monitor" : "true",
                 "syn-rate": "10",
                 "syn-burst": "20",
                 "max-session": "3",
@@ -156,7 +156,7 @@
                 "port" : 443
               },
               "tcp-monitor": {
-                "synflag_monitor" : "true",
+                "synflag-monitor" : "true",
                 "syn-rate": "10",
                 "syn-burst": "20",
                 "max-session": "3",
@@ -251,7 +251,7 @@
                 "port" : 443
               },
               "tcp-monitor": {
-                "synflag_monitor" : "true",
+                "synflag-monitor" : "true",
                 "syn-rate": "10",
                 "syn-burst": "20",
                 "max-session": "3",
@@ -297,7 +297,7 @@
                 "port" : 443
               },
               "tcp-monitor": {
-                "synflag_monitor" : "true",
+                "synflag-monitor" : "true",
                 "syn-rate": "10",
                 "syn-burst": "20",
                 "max-session": "3",
