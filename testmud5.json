@@ -84,7 +84,7 @@
               "tcp-monitor": {
                 "synflag_monitor" : "true",
                 "syn-rate": "10",
-                "syn_burst": "20",
+                "syn-burst": "20",
                 "max-session": "3",
                 "conn-attempt": "3",
                 "connattempt-time": "5"
@@ -158,7 +158,7 @@
               "tcp-monitor": {
                 "synflag_monitor" : "true",
                 "syn-rate": "10",
-                "syn_burst": "20",
+                "syn-burst": "20",
                 "max-session": "3",
                 "conn-attempt": "3",
                 "connattempt-time": "5"
@@ -253,7 +253,7 @@
               "tcp-monitor": {
                 "synflag_monitor" : "true",
                 "syn-rate": "10",
-                "syn_burst": "20",
+                "syn-burst": "20",
                 "max-session": "3",
                 "conn-attempt": "3",
                 "connattempt-time": "5"
@@ -299,7 +299,7 @@
               "tcp-monitor": {
                 "synflag_monitor" : "true",
                 "syn-rate": "10",
-                "syn_burst": "20",
+                "syn-burst": "20",
                 "max-session": "3",
                 "conn-attempt": "3",
                 "connattempt-time": "5"
