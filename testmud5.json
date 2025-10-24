@@ -83,8 +83,6 @@
               },
               "tcp-monitor": {
                 "synflag_monitor" : "true",
-                "finflag-monitor": "true",
-                "rstflag_monitor": "true",
                 "syn-rate": "10",
                 "syn_burst": "20",
                 "max-session": "3",
@@ -159,8 +157,6 @@
               },
               "tcp-monitor": {
                 "synflag_monitor" : "true",
-                "finflag-monitor": "true",
-                "rstflag_monitor": "true",
                 "syn-rate": "10",
                 "syn_burst": "20",
                 "max-session": "3",
@@ -256,8 +252,6 @@
               },
               "tcp-monitor": {
                 "synflag_monitor" : "true",
-                "finflag-monitor": "true",
-                "rstflag_monitor": "true",
                 "syn-rate": "10",
                 "syn_burst": "20",
                 "max-session": "3",
@@ -304,8 +298,6 @@
               },
               "tcp-monitor": {
                 "synflag_monitor" : "true",
-                "finflag-monitor": "true",
-                "rstflag_monitor": "true",
                 "syn-rate": "10",
                 "syn_burst": "20",
                 "max-session": "3",
