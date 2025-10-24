@@ -83,11 +83,11 @@
               },
               "tcp-monitor": {
                 "synflag-monitor" : "true",
-                "syn-rate": 10,
-                "syn-burst": 20,
-                "max-session": 3,
-                "conn-attempt": 3,
-                "connattempt-time": 5
+                "syn-rate ": 10,
+                "syn-burst" : 20,
+                "max-session" : 3,
+                "conn-attempt" : 3,
+                "connattempt-time" : 5
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -157,11 +157,11 @@
               },
               "tcp-monitor": {
                 "synflag-monitor" : "true",
-                "syn-rate": 10,
-                "syn-burst": 20,
-                "max-session": 3,
-                "conn-attempt": 3,
-                "connattempt-time": 5
+                "syn-rate" : 10,
+                "syn-burst" : 20,
+                "max-session" : 3,
+                "conn-attempt" : 3,
+                "connattempt-time" : 5
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -252,11 +252,11 @@
               },
               "tcp-monitor": {
                 "synflag-monitor" : "true",
-                "syn-rate": 10,
-                "syn-burst": 20,
-                "max-session": 3,
-                "conn-attempt": 3,
-                "connattempt-time": 5
+                "syn-rate" : 10,
+                "syn-burst" : 20,
+                "max-session" : 3,
+                "conn-attempt" : 3,
+                "connattempt-time" : 5
               }
             }
           },
@@ -298,11 +298,11 @@
               },
               "tcp-monitor": {
                 "synflag-monitor" : "true",
-                "syn-rate": 10,
-                "syn-burst": 20,
-                "max-session": 3,
-                "conn-attempt": 3,
-                "connattempt-time": 5
+                "syn-rate" : 10,
+                "syn-burst" : 20,
+                "max-session" : 3,
+                "conn-attempt" : 3,
+                "connattempt-time ": 5
               }
             }
           },
