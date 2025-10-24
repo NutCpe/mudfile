@@ -79,9 +79,7 @@
             "tcp" : {
               "destination-port" : {
                 "operator" : "eq",
-                "port" : 443
-              },
-              "tcp-monitor": {
+                "port" : 443,
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
@@ -153,15 +151,13 @@
             "tcp" : {
               "destination-port" : {
                 "operator" : "eq",
-                "port" : 443
-              },
-              "tcp-monitor": {
+                "port" : 443,
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
                 "max-session" : 3,
                 "conn-attempt" : 3,
-                "connattempt-time" : 5
+                "connattempt-time" : 5 
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -248,9 +244,7 @@
             "tcp" : {
               "source-port" : {
                 "operator" : "eq",
-                "port" : 443
-              },
-              "tcp-monitor": {
+                "port" : 443,
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
@@ -294,9 +288,7 @@
             "tcp" : {
               "source-port" : {
                 "operator" : "eq",
-                "port" : 443
-              },
-              "tcp-monitor": {
+                "port" : 443,
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
