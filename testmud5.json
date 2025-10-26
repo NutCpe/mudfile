@@ -85,11 +85,7 @@
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
-                "max-session" : 3,
-                "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
-                }
+                "max-session" : 3
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -161,11 +157,7 @@
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
-                "max-session": 3,
-                "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
-                }
+                "max-session": 3
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -258,11 +250,7 @@
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
-                "max-session": 3,
-                "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
-                }
+                "max-session": 3
               }
             }
           },
@@ -306,11 +294,7 @@
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
-                "max-session": 3,
-                "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
-                }
+                "max-session": 3
               }
             }
           },
