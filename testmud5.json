@@ -84,8 +84,7 @@
               "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
-                "syn-burst" : 20,
-                "max-session" : 3
+                "syn-burst" : 20
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -156,8 +155,7 @@
               "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
-                "syn-burst" : 20,
-                "max-session": 3
+                "syn-burst" : 20
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -249,8 +247,7 @@
               "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
-                "syn-burst" : 20,
-                "max-session": 3
+                "syn-burst" : 20
               }
             }
           },
@@ -293,8 +290,7 @@
               "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
-                "syn-burst" : 20,
-                "max-session": 3
+                "syn-burst" : 20
               }
             }
           },
