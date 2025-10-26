@@ -79,13 +79,17 @@
             "tcp" : {
               "destination-port" : {
                 "operator" : "eq",
-                "port" : 443,
+                "port" : 443
+              },
+              "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
                 "max-session" : 3,
-                "conn-attempt" : 3,
-                "connattempt-time" : 5
+                "reconnection-attempt" : {
+                  "conn-attempt" : 3,
+                  "attempt-time": 5
+                }
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -151,13 +155,17 @@
             "tcp" : {
               "destination-port" : {
                 "operator" : "eq",
-                "port" : 443,
+                "port" : 443
+              },
+              "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
-                "max-session" : 3,
-                "conn-attempt" : 3,
-                "connattempt-time" : 5 
+                "max-session": 3,
+                "reconnection-attempt" : {
+                  "conn-attempt" : 3,
+                  "attempt-time": 5
+                }
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -244,13 +252,17 @@
             "tcp" : {
               "source-port" : {
                 "operator" : "eq",
-                "port" : 443,
+                "port" : 443
+              },
+              "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
-                "max-session" : 3,
-                "conn-attempt" : 3,
-                "connattempt-time" : 5
+                "max-session": 3,
+                "reconnection-attempt" : {
+                  "conn-attempt" : 3,
+                  "attempt-time": 5
+                }
               }
             }
           },
@@ -288,13 +300,17 @@
             "tcp" : {
               "source-port" : {
                 "operator" : "eq",
-                "port" : 443,
+                "port" : 443
+              },
+              "tcp-monitor": {
                 "synflag-monitor" : "true",
                 "syn-rate" : 10,
                 "syn-burst" : 20,
-                "max-session" : 3,
-                "conn-attempt" : 3,
-                "connattempt-time ": 5
+                "max-session": 3,
+                "reconnection-attempt" : {
+                  "conn-attempt" : 3,
+                  "attempt-time": 5
+                }
               }
             }
           },
