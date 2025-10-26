@@ -84,8 +84,8 @@
                 "syn-burst" : 20,
                 "max-session" : 3,
                 "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
+                  "conn-attempt" : 5,
+                  "attempt-time": 60
                 }
               },
               "ietf-mud:direction-initiated" : "from-device"
@@ -160,8 +160,8 @@
                 "syn-burst" : 20,
                 "max-session": 3,
                 "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
+                  "conn-attempt" : 5,
+                  "attempt-time": 60
                 }
               },
               "ietf-mud:direction-initiated" : "from-device"
@@ -257,8 +257,8 @@
                 "syn-burst" : 20,
                 "max-session": 3,
                 "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
+                  "conn-attempt" : 5,
+                  "attempt-time": 60
                 }
               }
             }
@@ -305,8 +305,8 @@
                 "syn-burst" : 20,
                 "max-session": 3,
                 "reconnection-attempt" : {
-                  "conn-attempt" : 3,
-                  "attempt-time": 5
+                  "conn-attempt" : 5,
+                  "attempt-time": 60
                 }
               }
             }
