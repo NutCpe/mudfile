@@ -96,7 +96,7 @@
               "rstflag-monitoring" : {
                 "rstflag-monitor" : "true",
                 "rst-rate" : 3,
-                "rst_burst" : 3
+                "rst-burst" : 3
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -182,7 +182,7 @@
               "rstflag-monitoring" : {
                 "rstflag-monitor" : "true",
                 "rst-rate" : 3,
-                "rst_burst" : 3
+                "rst-burst" : 3
               },
               "ietf-mud:direction-initiated" : "from-device"
             }
@@ -289,7 +289,7 @@
               "rstflag-monitoring" : {
                 "rstflag-monitor" : "true",
                 "rst-rate" : 3,
-                "rst_burst" : 3
+                "rst-burst" : 3
               }
             }
           },
@@ -347,7 +347,7 @@
               "rstflag-monitoring" : {
                 "rstflag-monitor" : "true",
                 "rst-rate" : 3,
-                "rst_burst" : 3
+                "rst-burst" : 3
               }
             }
           },
