@@ -1,0 +1,163 @@
+{
+  "ietf-mud:mud": {
+    "mud-version": 1,
+    "cache-validity": 48,
+    "is-supported": true,
+    "last-change": "2025-11-14T06:10:42.261Z",
+    "mud-url": "https://testdevice.testserver.com/testdevice1.json",
+    "mud-signature": "https://testdevice.testserver.com/testdevice1.p7s",
+    "systeminfo": "Test device for MUD extension proposal evaluation",
+    "ietf-access-control-list:acls": {
+      "acl": [
+        {
+          "name": "toipv4-acl33131",
+          "type": "ipv4-acl-type",
+          "aces": {
+            "ace": [
+              {
+                "name": "toace31490",
+                "matches": {
+                  "ipv4": {
+                    "ietf-acldns:src-dnsname": "mudserver.testserver",
+                    "protocol": 6
+                  },
+                  "tcp": {
+                    "source-port": {
+                      "operator": "eq",
+                      "port": 8080
+                    },
+                    "ietf-mud:direction-initiated": "from-device"
+                  }
+                },
+                "actions": {
+                  "forwarding": "accept"
+                }
+              },
+              {
+                "name": "toace76108",
+                "matches": {
+                  "ipv4": {
+                    "ietf-acldns:src-dnsname": "mudfiles.testserver",
+                    "protocol": 17
+                  },
+                  "udp": {
+                    "source-port": {
+                      "operator": "eq",
+                      "port": 9999
+                    }
+                  }
+                },
+                "actions": {
+                  "forwarding": "accept"
+                }
+              },
+              {
+                "name": "toace61827",
+                "matches": {
+                  "ipv4": {
+                    "ietf-acldns:src-dnsname": "mudserver.testserver",
+                    "protocol": 6
+                  },
+                  "tcp": {
+                    "source-port": {
+                      "operator": "eq",
+                      "port": 1883
+                    },
+                    "ietf-mud:direction-initiated": "from-device"
+                  }
+                },
+                "actions": {
+                  "forwarding": "accept"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "fripv4-acl33131",
+          "type": "ipv4-acl-type",
+          "aces": {
+            "ace": [
+              {
+                "name": "frace31490",
+                "matches": {
+                  "ipv4": {
+                    "ietf-acldns:dst-dnsname": "mudserver.testserver",
+                    "protocol": 6
+                  },
+                  "tcp": {
+                    "destination-port": {
+                      "operator": "eq",
+                      "port": 8080
+                    },
+                    "ietf-mud:direction-initiated": "from-device"
+                  }
+                },
+                "actions": {
+                  "forwarding": "accept"
+                }
+              },
+              {
+                "name": "frace76108",
+                "matches": {
+                  "ipv4": {
+                    "ietf-acldns:dst-dnsname": "mudfiles.testserver",
+                    "protocol": 17
+                  },
+                  "udp": {
+                    "destination-port": {
+                      "operator": "eq",
+                      "port": 9999,
+                      "packet-rate" : 20,
+                      "burst-rate" : 40
+                    }
+                  }
+                },
+                "actions": {
+                  "forwarding": "accept"
+                }
+              },
+              {
+                "name": "frace61827",
+                "matches": {
+                  "ipv4": {
+                    "ietf-acldns:dst-dnsname": "mudserver.testserver",
+                    "protocol": 6
+                  },
+                  "tcp": {
+                    "destination-port": {
+                      "operator": "eq",
+                      "port": 1883
+                    },
+                    "ietf-mud:direction-initiated": "from-device"
+                  }
+                },
+                "actions": {
+                  "forwarding": "accept"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "from-device-policy": {
+      "access-lists": {
+        "access-list": [
+          {
+            "name": "fripv4-acl33131"
+          }
+        ]
+      }
+    },
+    "to-device-policy": {
+      "access-lists": {
+        "access-list": [
+          {
+            "name": "toipv4-acl33131"
+          }
+        ]
+      }
+    }
+  }
+}
