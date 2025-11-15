@@ -3,7 +3,7 @@
     "mud-version": 1,
     "cache-validity": 48,
     "is-supported": true,
-    "last-change": "2025-11-14T06:10:42.261Z",
+    "last-update": "2025-11-14T06:10:42.261Z",
     "mud-url": "https://testdevice.testserver.com/testdevice1.json",
     "mud-signature": "https://testdevice.testserver.com/testdevice1.p7s",
     "systeminfo": "Test device for MUD extension proposal evaluation",
@@ -244,3 +244,4 @@
   }
 
 }
+
