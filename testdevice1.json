@@ -36,7 +36,7 @@
               "name": "toace31490",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:src-dnsname": "mudserver.testserver",
+                  "ietf-acldns:src-dnsname": "192.168.82.19/32",
                   "protocol": 6
                 },
                 "tcp": {
@@ -75,7 +75,7 @@
               "name": "toace76108",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:src-dnsname": "mudfiles.testserver",
+                  "ietf-acldns:src-dnsname": "192.168.82.19/32",
                   "protocol": 17
                 },
                 "udp": {
@@ -95,7 +95,7 @@
               "name": "toace61827",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:src-dnsname": "mudserver.testserver",
+                  "ietf-acldns:src-dnsname": "192.168.82.19/32",
                   "protocol": 6
                 },
                 "tcp": {
@@ -142,7 +142,7 @@
               "name": "frace31490",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:dst-dnsname": "mudserver.testserver",
+                  "ietf-acldns:dst-dnsname": "192.168.82.19/32",
                   "protocol": 6
                 },
                 "tcp": {
@@ -181,7 +181,7 @@
               "name": "frace76108",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:dst-dnsname": "mudfiles.testserver",
+                  "ietf-acldns:dst-dnsname": "192.168.82.19/32",
                   "protocol": 17
                 },
                 "udp": {
@@ -201,7 +201,7 @@
               "name": "frace61827",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:dst-dnsname": "mudserver.testserver",
+                  "ietf-acldns:dst-dnsname": "192.168.82.19/32",
                   "protocol": 6
                 },
                 "tcp": {
@@ -242,5 +242,6 @@
     ]
   }
 }
+
 
 
