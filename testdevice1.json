@@ -36,8 +36,8 @@
               "name": "toace31490",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:src-dnsname": "mudserver.testserver",
-                  "protocol": 6
+                  "protocol": 6,
+                  "ietf-acldns:src-dnsname": "mudserver.testserver"
                 },
                 "tcp": {
                   "source-port": {
@@ -75,8 +75,8 @@
               "name": "toace76108",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:src-dnsname": "mudserver.testserver",
-                  "protocol": 17
+                  "protocol": 17,
+                  "ietf-acldns:src-dnsname": "mudserver.testserver"
                 },
                 "udp": {
                   "source-port": {
@@ -95,8 +95,8 @@
               "name": "toace61827",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:src-dnsname": "mudserver.testserver",
-                  "protocol": 6
+                  "protocol": 6,
+                  "ietf-acldns:src-dnsname": "mudserver.testserver"
                 },
                 "tcp": {
                   "source-port": {
@@ -142,8 +142,8 @@
               "name": "frace31490",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:dst-dnsname": "mudserver.testserver",
-                  "protocol": 6
+                  "protocol": 6,
+                  "ietf-acldns:dst-dnsname": "mudserver.testserver"
                 },
                 "tcp": {
                   "destination-port": {
@@ -181,8 +181,8 @@
               "name": "frace76108",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:dst-dnsname": "mudserver.testserver",
-                  "protocol": 17
+                  "protocol": 17,
+                  "ietf-acldns:dst-dnsname": "mudserver.testserver"
                 },
                 "udp": {
                   "destination-port": {
@@ -201,8 +201,8 @@
               "name": "frace61827",
               "matches": {
                 "ipv4": {
-                  "ietf-acldns:dst-dnsname": "mudserver.testserver",
-                  "protocol": 6
+                  "protocol": 6,
+                  "ietf-acldns:dst-dnsname": "mudserver.testserver"
                 },
                 "tcp": {
                   "destination-port": {
