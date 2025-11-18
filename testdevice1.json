@@ -82,8 +82,8 @@
                   "source-port": {
                     "operator": "eq",
                     "port": 9999,
-                    "packet-rate" : 20,
-                    "burst-rate" : 40
+                    "packet-rate" : 10,
+                    "burst-rate" : 20
                   }
                 }
               },
@@ -188,8 +188,8 @@
                   "destination-port": {
                     "operator": "eq",
                     "port": 9999,
-                    "packet-rate" : 20,
-                    "burst-rate" : 40
+                    "packet-rate" : 10,
+                    "burst-rate" : 20
                   }
                 }
               },
@@ -242,3 +242,4 @@
     ]
   }
 }
+
