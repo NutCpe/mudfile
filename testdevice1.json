@@ -56,13 +56,13 @@
                   },
                   "finflag-monitoring" : {
                       "finflag-monitor" : "true",
-                      "fin-rate" : 5,
-                      "fin-burst" : 5
+                      "fin-rate" : 10,
+                      "fin-burst" : 20
                   },
                   "rstflag-monitoring" : {
                       "rstflag-monitor" : "true",
-                      "rst-rate" : 3,
-                      "rst-burst" : 3
+                      "rst-rate" : 10,
+                      "rst-burst" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -115,13 +115,13 @@
                   },
                   "finflag-monitoring" : {
                       "finflag-monitor" : "true",
-                      "fin-rate" : 5,
-                      "fin-burst" : 5
+                      "fin-rate" : 10,
+                      "fin-burst" : 20
                   },
                   "rstflag-monitoring" : {
                       "rstflag-monitor" : "true",
-                      "rst-rate" : 3,
-                      "rst-burst" : 3
+                      "rst-rate" : 10,
+                      "rst-burst" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -162,13 +162,13 @@
                   },
                   "finflag-monitoring" : {
                       "finflag-monitor" : "true",
-                      "fin-rate" : 5,
-                      "fin-burst" : 5
+                      "fin-rate" : 10,
+                      "fin-burst" : 20
                   },
                   "rstflag-monitoring" : {
                       "rstflag-monitor" : "true",
-                      "rst-rate" : 3,
-                      "rst-burst" : 3
+                      "rst-rate" : 10,
+                      "rst-burst" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -221,13 +221,13 @@
                   },
                   "finflag-monitoring" : {
                       "finflag-monitor" : "true",
-                      "fin-rate" : 5,
-                      "fin-burst" : 5
+                      "fin-rate" : 10,
+                      "fin-burst" : 20
                   },
                   "rstflag-monitoring" : {
                       "rstflag-monitor" : "true",
-                      "rst-rate" : 3,
-                      "rst-burst" : 3
+                      "rst-rate" : 10,
+                      "rst-burst" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -242,4 +242,5 @@
     ]
   }
 }
+
 
