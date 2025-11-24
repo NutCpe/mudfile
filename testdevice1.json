@@ -46,11 +46,11 @@
                   },
                   "synflag-monitoring" : {
                       "synflag-monitor" : "true",
-                      "syn-rate" : 1000,
-                      "syn-burst" : 2000,
+                      "syn-rate" : 10,
+                      "syn-burst" : 20,
                       "max-session" : 3,
                       "reconnection-attempt" : {
-                          "conn-attempt" : 500,
+                          "conn-attempt" : 5,
                           "attempt-time": 60
                       }
                   },
@@ -105,11 +105,11 @@
                   },
                   "synflag-monitoring" : {
                       "synflag-monitor" : "true",
-                      "syn-rate" : 1000,
-                      "syn-burst" : 2000,
+                      "syn-rate" : 10,
+                      "syn-burst" : 20,
                       "max-session" : 3,
                       "reconnection-attempt" : {
-                          "conn-attempt" : 500,
+                          "conn-attempt" : 5,
                           "attempt-time": 60
                       }
                   },
@@ -152,11 +152,11 @@
                   },
                   "synflag-monitoring" : {
                       "synflag-monitor" : "true",
-                      "syn-rate" : 1000,
-                      "syn-burst" : 2000,
+                      "syn-rate" : 10,
+                      "syn-burst" : 20,
                       "max-session" : 3,
                       "reconnection-attempt" : {
-                          "conn-attempt" : 500,
+                          "conn-attempt" : 5,
                           "attempt-time": 60
                       }
                   },
@@ -211,11 +211,11 @@
                   },
                   "synflag-monitoring" : {
                       "synflag-monitor" : "true",
-                      "syn-rate" : 1000,
-                      "syn-burst" : 2000,
+                      "syn-rate" : 10,
+                      "syn-burst" : 20,
                       "max-session" : 3,
                       "reconnection-attempt" : {
-                          "conn-attempt" : 500,
+                          "conn-attempt" : 5,
                           "attempt-time": 60
                       }
                   },
@@ -242,6 +242,7 @@
     ]
   }
 }
+
 
 
 
