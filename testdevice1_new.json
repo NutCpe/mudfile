@@ -45,7 +45,7 @@
                     "port": 8080
                   },
                   "session-init-control" : {
-                      "synmonitor-enable" : "true",
+                      "syn-monitor-enable" : "true",
                       "syn-packetrate" : 10,
                       "syn-burstrate" : 20,
                       "session-limit" : 3,
@@ -53,12 +53,12 @@
                       "reconnection-interval": 60
                   },
                   "session-end-control" : {
-                      "finmonitor-enable" : "true",
+                      "fin-monitor-enable" : "true",
                       "fin-packetrate" : 10,
                       "fin-burstrate" : 20
                   },
                   "reset-control" : {
-                      "rstflag-monitor" : "true",
+                      "rst-flag-monitor" : "true",
                       "rst-packetrate" : 10,
                       "rst-burstrate" : 20
                   },
@@ -102,7 +102,7 @@
                     "port": 1883
                   },
                   "session-init-control" : {
-                      "synmonitor-enable" : "true",
+                      "syn-monitor-enable" : "true",
                       "syn-packetrate" : 10,
                       "syn-burstrate" : 20,
                       "session-limit" : 3,
@@ -110,12 +110,12 @@
                       "reconnection-interval": 60
                   },
                   "session-end-control" : {
-                      "finmonitor-enable" : "true",
+                      "fin-monitor-enable" : "true",
                       "fin-packetrate" : 10,
                       "fin-burstrate" : 20
                   },
                   "reset-control" : {
-                      "rstflag-monitor" : "true",
+                      "rst-flag-monitor" : "true",
                       "rst-packetrate" : 10,
                       "rst-burstrate" : 20
                   },
@@ -147,7 +147,7 @@
                     "port": 8080
                   },
                   "session-init-control" : {
-                      "synmonitor-enable" : "true",
+                      "syn-monitor-enable" : "true",
                       "syn-packetrate" : 10,
                       "syn-burstrate" : 20,
                       "session-limit" : 3,
@@ -155,12 +155,12 @@
                       "reconnection-interval": 60
                   },
                   "session-end-control" : {
-                      "finmonitor-enable" : "true",
+                      "fin-monitor-enable" : "true",
                       "fin-packetrate" : 10,
                       "fin-burstrate" : 20
                   },
                   "reset-control" : {
-                      "rstflag-monitor" : "true",
+                      "rst-flag-monitor" : "true",
                       "rst-packetrate" : 10,
                       "rst-burstrate" : 20
                   },
@@ -204,7 +204,7 @@
                     "port": 1883
                   },
                   "session-init-control" : {
-                      "synmonitor-enable" : "true",
+                      "syn-monitor-enable" : "true",
                       "syn-packetrate" : 10,
                       "syn-burstrate" : 20,
                       "session-limit" : 3,
@@ -212,12 +212,12 @@
                       "reconnection-interval": 60
                   },
                   "session-end-control" : {
-                      "finmonitor-enable" : "true",
+                      "fin-monitor-enable" : "true",
                       "fin-packetrate" : 10,
                       "fin-burstrate" : 20
                   },
                   "reset-control" : {
-                      "rstflag-monitor" : "true",
+                      "rst-flag-monitor" : "true",
                       "rst-packetrate" : 10,
                       "rst-burstrate" : 20
                   },
@@ -234,6 +234,7 @@
     ]
   }
 }
+
 
 
 
