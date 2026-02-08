@@ -1,0 +1,164 @@
+{
+  "ietf-mud:mud": {
+    "mud-version": 1,
+    "mud-url": "https://testdevice.testserver",
+    "last-update": "2025-11-14T06:10:42.261Z",
+    "cache-validity": 48,
+    "is-supported": true,
+    "systeminfo": "Test device for MUD extension proposal evaluation",
+    "from-device-policy": {
+      "access-lists": {
+        "access-list": [
+          {
+            "name": "fripv4-acl33131"
+          }
+        ]
+      }
+    },
+    "to-device-policy": {
+      "access-lists": {
+        "access-list": [
+          {
+            "name": "toipv4-acl33131"
+          }
+        ]
+      }
+    }
+  },
+  "ietf-access-control-list:acls": {
+    "acl": [
+      {
+        "name": "toipv4-acl33131",
+        "type": "ipv4-acl-type",
+        "aces": {
+          "ace": [
+            {
+              "name": "toace31490",
+              "matches": {
+                "ipv4": {
+                  "protocol": 6,
+                  "ietf-acldns:src-dnsname": "mudserver.testserver"
+                },
+                "tcp": {
+                  "source-port": {
+                    "operator": "eq",
+                    "port": 8080
+                  },
+                  "ietf-mud:direction-initiated": "from-device"
+                }
+              },
+              "actions": {
+                "forwarding": "accept"
+              }
+            },
+            {
+              "name": "toace76108",
+              "matches": {
+                "ipv4": {
+                  "protocol": 17,
+                  "ietf-acldns:src-dnsname": "mudserver.testserver"
+                },
+                "udp": {
+                  "source-port": {
+                    "operator": "eq",
+                    "port": 9999
+                  }
+                }
+              },
+              "actions": {
+                "forwarding": "accept"
+              }
+            },
+            {
+              "name": "toace61827",
+              "matches": {
+                "ipv4": {
+                  "protocol": 6,
+                  "ietf-acldns:src-dnsname": "mudserver.testserver"
+                },
+                "tcp": {
+                  "source-port": {
+                    "operator": "eq",
+                    "port": 1883
+                  },
+                  "ietf-mud:direction-initiated": "from-device"
+                }
+              },
+              "actions": {
+                "forwarding": "accept"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "fripv4-acl33131",
+        "type": "ipv4-acl-type",
+        "aces": {
+          "ace": [
+            {
+              "name": "frace31490",
+              "matches": {
+                "ipv4": {
+                  "protocol": 6,
+                  "ietf-acldns:dst-dnsname": "mudserver.testserver"
+                },
+                "tcp": {
+                  "destination-port": {
+                    "operator": "eq",
+                    "port": 8080
+                  },
+                  "ietf-mud:direction-initiated": "from-device"
+                }
+              },
+              "actions": {
+                "forwarding": "accept"
+              }
+            },
+            {
+              "name": "frace76108",
+              "matches": {
+                "ipv4": {
+                  "protocol": 17,
+                  "ietf-acldns:dst-dnsname": "mudserver.testserver"
+                },
+                "udp": {
+                  "destination-port": {
+                    "operator": "eq",
+                    "port": 9999
+                  }
+                }
+              },
+              "actions": {
+                "forwarding": "accept"
+              }
+            },
+            {
+              "name": "frace61827",
+              "matches": {
+                "ipv4": {
+                  "protocol": 6,
+                  "ietf-acldns:dst-dnsname": "mudserver.testserver"
+                },
+                "tcp": {
+                  "destination-port": {
+                    "operator": "eq",
+                    "port": 1883
+                  },
+                  "ietf-mud:direction-initiated": "from-device"
+                }
+              },
+              "actions": {
+                "forwarding": "accept"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+
+
+
+
