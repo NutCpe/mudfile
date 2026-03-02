@@ -109,7 +109,7 @@
                       "syn-burst" : 20,
                       "max-session" : 3,
                       "reconnection-attempt" : {
-                          "conn-attempt" : 10
+                          "conn-attempt" : 10,
                           "attempt-time": 60
                       }
                   },
@@ -242,6 +242,7 @@
     ]
   }
 }
+
 
 
 
