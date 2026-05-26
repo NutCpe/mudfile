@@ -46,10 +46,7 @@
                   },
                   "syn-flood-protection-threshold" : {
                       "syn-packet-rate" : 10,
-                      "syn-burst-rate" : 20,
-                      "session-limit" : 3,
-                      "reconnection-limit" : 5,
-                      "reconnection-interval": 60
+                      "syn-burst-rate" : 20
                   },
                   "fin-flood-protection-threshold" : {
                       "fin-packet-rate" : 10,
@@ -102,10 +99,7 @@
                   },
                   "syn-flood-protection-threshold" : {
                       "syn-packet-rate" : 10,
-                      "syn-burst-rate" : 20,
-                      "concurrent-session-limit" : 3,
-                      "reconnection-limit" : 5,
-                      "reconnection-interval": 60
+                      "syn-burst-rate" : 20
                   },
                   "fin-flood-protection-threshold" : {
                       "fin-packet-rate" : 10,
@@ -144,10 +138,7 @@
                   },
                   "syn-flood-protection-threshold" : {
                       "syn-packet-rate" : 10,
-                      "syn-burst-rate" : 20,
-                      "session-limit" : 3,
-                      "reconnection-limit" : 5,
-                      "reconnection-interval": 60
+                      "syn-burst-rate" : 20
                   },
                   "fin-flood-protection-threshold" : {
                       "fin-packet-rate" : 10,
@@ -200,10 +191,7 @@
                   },
                   "syn-flood-protection-threshold" : {
                       "syn-packet-rate" : 10,
-                      "syn-burst-rate" : 20,
-                      "session-limit" : 3,
-                      "reconnection-limit" : 5,
-                      "reconnection-interval": 60
+                      "syn-burst-rate" : 20
                   },
                   "fin-flood-protection-threshold" : {
                       "fin-packet-rate" : 10,
