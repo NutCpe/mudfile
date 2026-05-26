@@ -51,11 +51,11 @@
                       "reconnection-limit" : 5,
                       "reconnection-interval": 60
                   },
-                  "fin-flood-threshold" : {
+                  "fin-flood-protection-threshold" : {
                       "fin-packet-rate" : 10,
                       "fin-burst-rate" : 20
                   },
-                  "rst-flood-threshold" : {
+                  "rst-flood-protection-threshold" : {
                       "rst-packet-rate" : 10,
                       "rst-burst-rate" : 20
                   },
@@ -149,11 +149,11 @@
                       "reconnection-limit" : 5,
                       "reconnection-interval": 60
                   },
-                  "fin-flood-threshold" : {
+                  "fin-flood-protection-threshold" : {
                       "fin-packet-rate" : 10,
                       "fin-burst-rate" : 20
                   },
-                  "rst-flood-threshold" : {
+                  "rst-flood-protection-threshold" : {
                       "rst-packet-rate" : 10,
                       "rst-burst-rate" : 20
                   },
@@ -205,11 +205,11 @@
                       "reconnection-limit" : 5,
                       "reconnection-interval": 60
                   },
-                  "fin-flood-threshold" : {
+                  "fin-flood-protection-threshold" : {
                       "fin-packet-rate" : 10,
                       "fin-burst-rate" : 20
                   },
-                  "rst-flood-threshold" : {
+                  "rst-flood-protection-threshold" : {
                       "rst-packet-rate" : 10,
                       "rst-burst-rate" : 20
                   },
