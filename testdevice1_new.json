@@ -44,7 +44,7 @@
                     "operator": "eq",
                     "port": 8080
                   },
-                  "syn-flood-threshold" : {
+                  "syn-flood-protection-threshold" : {
                       "syn-packet-rate" : 10,
                       "syn-burst-rate" : 20,
                       "session-limit" : 3,
@@ -142,7 +142,7 @@
                     "operator": "eq",
                     "port": 8080
                   },
-                  "syn-flood-threshold" : {
+                  "syn-flood-protection-threshold" : {
                       "syn-packet-rate" : 10,
                       "syn-burst-rate" : 20,
                       "session-limit" : 3,
@@ -198,7 +198,7 @@
                     "operator": "eq",
                     "port": 1883
                   },
-                  "syn-flood-threshold" : {
+                  "syn-flood-protection-threshold" : {
                       "syn-packet-rate" : 10,
                       "syn-burst-rate" : 20,
                       "session-limit" : 3,
