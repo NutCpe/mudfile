@@ -167,7 +167,7 @@
                     "operator": "eq",
                     "port": 9999
                   },
-                  "udp-flood-threshold": {
+                  "udp-flood-protection-threshold": {
                     "udp-packet-rate" : 10,
                     "udp-burst-rate" : 20
                   }
