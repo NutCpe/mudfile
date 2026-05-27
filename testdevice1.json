@@ -44,25 +44,17 @@
                     "operator": "eq",
                     "port": 8080
                   },
-                  "synflag-monitoring" : {
-                      "synflag-monitor" : "true",
-                      "syn-rate" : 10,
-                      "syn-burst" : 20,
-                      "max-session" : 3,
-                      "reconnection-attempt" : {
-                          "conn-attempt" : 10,
-                          "attempt-time": 60
-                      }
+                  "syn-flood-protection-threshold" : {
+                      "syn-packet-rate" : 10,
+                      "syn-burst-rate" : 20
                   },
-                  "finflag-monitoring" : {
-                      "finflag-monitor" : "true",
-                      "fin-rate" : 10,
-                      "fin-burst" : 20
+                  "fin-flood-protection-threshold" : {
+                      "fin-packet-rate" : 10,
+                      "fin-burst-rate" : 20
                   },
-                  "rstflag-monitoring" : {
-                      "rstflag-monitor" : "true",
-                      "rst-rate" : 10,
-                      "rst-burst" : 20
+                  "rst-flood-protection-threshold" : {
+                      "rst-packet-rate" : 10,
+                      "rst-burst-rate" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -81,9 +73,11 @@
                 "udp": {
                   "source-port": {
                     "operator": "eq",
-                    "port": 9999,
-                    "packet-rate" : 10,
-                    "burst-rate" : 20
+                    "port": 9999
+                  },
+                  "udp-flood-protection-threshold": {
+                    "udp-packet-rate" : 10,
+                    "udp-burst-rate" : 20
                   }
                 }
               },
@@ -103,25 +97,17 @@
                     "operator": "eq",
                     "port": 1883
                   },
-                  "synflag-monitoring" : {
-                      "synflag-monitor" : "true",
-                      "syn-rate" : 10,
-                      "syn-burst" : 20,
-                      "max-session" : 3,
-                      "reconnection-attempt" : {
-                          "conn-attempt" : 10,
-                          "attempt-time": 60
-                      }
+                  "syn-flood-protection-threshold" : {
+                      "syn-packet-rate" : 10,
+                      "syn-burst-rate" : 20
                   },
-                  "finflag-monitoring" : {
-                      "finflag-monitor" : "true",
-                      "fin-rate" : 10,
-                      "fin-burst" : 20
+                  "fin-flood-protection-threshold" : {
+                      "fin-packet-rate" : 10,
+                      "fin-burst-rate" : 20
                   },
-                  "rstflag-monitoring" : {
-                      "rstflag-monitor" : "true",
-                      "rst-rate" : 10,
-                      "rst-burst" : 20
+                  "rst-flood-protection-threshold" : {
+                      "rst-packet-rate" : 10,
+                      "rst-burst-rate" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -150,25 +136,17 @@
                     "operator": "eq",
                     "port": 8080
                   },
-                  "synflag-monitoring" : {
-                      "synflag-monitor" : "true",
-                      "syn-rate" : 10,
-                      "syn-burst" : 20,
-                      "max-session" : 3,
-                      "reconnection-attempt" : {
-                          "conn-attempt" : 10,
-                          "attempt-time": 60
-                      }
+                  "syn-flood-protection-threshold" : {
+                      "syn-packet-rate" : 10,
+                      "syn-burst-rate" : 20
                   },
-                  "finflag-monitoring" : {
-                      "finflag-monitor" : "true",
-                      "fin-rate" : 10,
-                      "fin-burst" : 20
+                  "fin-flood-protection-threshold" : {
+                      "fin-packet-rate" : 10,
+                      "fin-burst-rate" : 20
                   },
-                  "rstflag-monitoring" : {
-                      "rstflag-monitor" : "true",
-                      "rst-rate" : 10,
-                      "rst-burst" : 20
+                  "rst-flood-protection-threshold" : {
+                      "rst-packet-rate" : 10,
+                      "rst-burst-rate" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -187,9 +165,11 @@
                 "udp": {
                   "destination-port": {
                     "operator": "eq",
-                    "port": 9999,
-                    "packet-rate" : 10,
-                    "burst-rate" : 20
+                    "port": 9999
+                  },
+                  "udp-flood-protection-threshold": {
+                    "udp-packet-rate" : 10,
+                    "udp-burst-rate" : 20
                   }
                 }
               },
@@ -209,25 +189,17 @@
                     "operator": "eq",
                     "port": 1883
                   },
-                  "synflag-monitoring" : {
-                      "synflag-monitor" : "true",
-                      "syn-rate" : 10,
-                      "syn-burst" : 20,
-                      "max-session" : 3,
-                      "reconnection-attempt" : {
-                          "conn-attempt" : 10,
-                          "attempt-time": 60
-                      }
+                  "syn-flood-protection-threshold" : {
+                      "syn-packet-rate" : 10,
+                      "syn-burst-rate" : 20
                   },
-                  "finflag-monitoring" : {
-                      "finflag-monitor" : "true",
-                      "fin-rate" : 10,
-                      "fin-burst" : 20
+                  "fin-flood-protection-threshold" : {
+                      "fin-packet-rate" : 10,
+                      "fin-burst-rate" : 20
                   },
-                  "rstflag-monitoring" : {
-                      "rstflag-monitor" : "true",
-                      "rst-rate" : 10,
-                      "rst-burst" : 20
+                  "rst-flood-protection-threshold" : {
+                      "rst-packet-rate" : 10,
+                      "rst-burst-rate" : 20
                   },
                   "ietf-mud:direction-initiated": "from-device"
                 }
@@ -242,6 +214,9 @@
     ]
   }
 }
+
+
+
 
 
 
