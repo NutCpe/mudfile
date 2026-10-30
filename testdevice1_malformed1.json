@@ -136,13 +136,13 @@
                     "operator": "eq",
                     "port": 8080
                   },
-                  "syn-flood-protection-threshold" : {
-                      "syn-packet-rate" : 10,
-                      "syn-burst-rate" : 20
+                 "syn-flood-protection-threshold" : {
+                      "syn-packet-rate" : "max",
+                      "syn-burst-rate" : 20.5
                   },
                   "fin-flood-protection-threshold" : {
-                      "fin-packet-rate" : 10,
-                      "fin-burst-rate" : 20
+                      "fin-packet-rate" : "invalid",
+                      "fin-burst-rate" : 20.75
                   },
                   "rst-flood-protection-threshold" : {
                       "rst-packet-rate" : 10,
@@ -168,8 +168,8 @@
                     "port": 9999
                   },
                   "udp-flood-protection-threshold": {
-                    "udp-packet-rate" : 10,
-                    "udp-burst-rate" : 20
+                    "udp-packet-rate" : "low",
+                    "udp-burst-rate" : 20.25
                   }
                 }
               },
